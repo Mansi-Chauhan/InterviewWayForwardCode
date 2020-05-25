@@ -1,0 +1,74 @@
+<!-- <p>demo works!</p>
+<H1>HEllo</H1> -->
+
+<h3> Calculator </h3>
+
+<div>
+    <table border="1" style="background-color: black;">
+        <tr>
+            <td colspan="4">
+             <input type ="text" [(ngModel)]="calc">
+            </td>
+           
+        </tr>
+
+        <tr>
+            <td colspan="1"> <button type="submit" (click)="0">0</button>
+            </td>
+            <td colspan="1"> <button type="submit" (click)="clr()">C</button>
+            </td>
+            <td colspan="1"> <button type="submit" (click)="display('/')">/</button>
+            </td>
+            <td colspan="1"> <button type="submit" (click)="solve()" style="background-color: chocolate;">=</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <button type ="submit" (click)="display('7')">7</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('8')" id="numbers">8</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('9')" id="numbers">9</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('+')">+</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <button type ="submit" (click)="display('4')">4</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('5')">5</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('6')">6</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('-')">-</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="1">
+                <button type ="submit" (click)="display('1')">1</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('2')">2</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('3')">3</button>
+            </td>
+            <td colspan="1">
+                <button type ="submit" (click)="display('*')">*</button>
+            </td>
+        </tr>
+        
+
+    </table>
+</div>
+ 
