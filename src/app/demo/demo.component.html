@@ -7,25 +7,25 @@
     <table border="1" style="background-color: black;">
         <tr>
             <td colspan="4">
-             <input type ="text" [(ngModel)]="calc">
+             <input type ="text" [(ngModel)]="calc" id ="inputtext">
             </td>
            
         </tr>
 
         <tr>
-            <td colspan="1"> <button type="submit" (click)="0">0</button>
+            <td colspan="1"> <button type="submit" (click)="0" id="numbers">0</button>
             </td>
-            <td colspan="1"> <button type="submit" (click)="clr()">C</button>
+            <td colspan="1"> <button type="submit" (click)="clr()" id="numbers">C</button>
             </td>
-            <td colspan="1"> <button type="submit" (click)="display('/')">/</button>
+            <td colspan="1"> <button type="submit" (click)="display('/')" id="numbers" style="width: 47px;">/</button>
             </td>
-            <td colspan="1"> <button type="submit" (click)="solve()" style="background-color: chocolate;">=</button>
+            <td colspan="1"> <button type="submit" (click)="solve()" id ="equals" >=</button>
             </td>
         </tr>
 
         <tr>
             <td colspan="1">
-                <button type ="submit" (click)="display('7')">7</button>
+                <button type ="submit" (click)="display('7')" id="numbers">7</button>
             </td>
             <td colspan="1">
                 <button type ="submit" (click)="display('8')" id="numbers">8</button>
@@ -34,37 +34,37 @@
                 <button type ="submit" (click)="display('9')" id="numbers">9</button>
             </td>
             <td colspan="1">
-                <button type ="submit" (click)="display('+')">+</button>
+                <button type ="submit" (click)="display('+')" id="numbers">+</button>
             </td>
         </tr>
 
         <tr>
             <td colspan="1">
-                <button type ="submit" (click)="display('4')">4</button>
+                <button type ="submit" (click)="display('4')" id="numbers">4</button>
             </td>
             <td colspan="1">
-                <button type ="submit" (click)="display('5')">5</button>
+                <button type ="submit" (click)="display('5')" id="numbers">5</button>
             </td>
             <td colspan="1">
-                <button type ="submit" (click)="display('6')">6</button>
+                <button type ="submit" (click)="display('6')" id="numbers">6</button>
             </td>
             <td colspan="1">
-                <button type ="submit" (click)="display('-')">-</button>
+                <button type ="submit" (click)="display('-')" id="numbers">-</button>
             </td>
         </tr>
 
         <tr>
             <td colspan="1">
-                <button type ="submit" (click)="display('1')">1</button>
+                <button type ="submit" (click)="display('1')" id="numbers">1</button>
             </td>
             <td colspan="1">
-                <button type ="submit" (click)="display('2')">2</button>
+                <button type ="submit" (click)="display('2')" id="numbers">2</button>
             </td>
             <td colspan="1">
-                <button type ="submit" (click)="display('3')">3</button>
+                <button type ="submit" (click)="display('3')" id="numbers">3</button>
             </td>
             <td colspan="1">
-                <button type ="submit" (click)="display('*')">*</button>
+                <button type ="submit" (click)="display('*')" id="numbers">*</button>
             </td>
         </tr>
         

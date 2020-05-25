@@ -32,4 +32,20 @@ export class DemoComponent implements OnInit {
     this.calc = this.res;
 
   }
+
+
+  // x:any;
+  // y: any;
+  // add(){
+     
+  //  this.x += this.calc;
+  //   this.x = this.calc;
+  //   this.clr();
+  // }
+
+  // solve2(){
+
+  // }
+
+  
 }

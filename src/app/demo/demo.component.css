@@ -1,5 +1,25 @@
-numbers{
+#numbers{
 
     background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+
+}
+
+.button{
+    font-size: 12px;
+}
+
+#equals{
+    font-size: 38px;
+    padding: 5px;
+    width: 46px;
+    background-color: chocolate;
+}
+
+#inputtext{
+    width: 207px;
+    height: 31px;
 
 }
